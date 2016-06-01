@@ -1,0 +1,21 @@
+.about-col{
+  vertical-align: middle;
+  display: inline-block;
+}
+
+.about-col-1{
+  margin-bottom: -10px;
+  margin-right: 40px;
+  width: 350px;
+}
+
+.about-col-wrapper{
+  position: relative;
+}
+
+.social-labels{
+  padding-top: 5px;
+  .social-label{
+    //padding-top: 4px;
+  }
+}
