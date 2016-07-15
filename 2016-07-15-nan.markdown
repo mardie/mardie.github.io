@@ -1,0 +1,38 @@
+---
+layout: post
+
+title:  "NaN"
+date:   2016-07-15 00:00:00 +0100
+categories: javascript languages
+---
+I remember first time I saw the batman joke:
+```javascript
+Array(16).join('wat' -1) + " Batman!" //outputs: "NaNNaNNaNNaNNaNNaNNaNNaNNaNNaNNaNNaNNaNNaNNaN Batman!"
+```
+It was hilarious. How could this even happen? As a joke it works very well but let's have a look to the intent:
+1.- Array(16) We set an array of 16 elements uninitialised(it contains 16 undefined) 
+2.- 'wat' -1 We subtract 1 from 'wat' What!!?? this expression happens to be NaN (not a number)
+3.- Array(16).join('wat' -1) We transform the array 16 undefined elements into a string splitting the elements by 'wat' - 1 (which is NaN)
+4.- Array(16).join('wat' -1) + " Batman!" We concatenate the previous string to " Batman!" 
+
+I know. Explaining the joke spoils it. But maybe the joke is why anybody would do that. What he was expecting when tried to add a string and a number?. An exception you may say. And why you would deliberately want an exception?
+The obvious guard here is to not operate strings and numbers. Someone blame javascript about not having a strict type system. It should have included it but javascript roots was to add some customisation to documents. It targeted a wide range of people that could or could not have computer science skills. Because of that it included features for lowering the entry barrier.
+As any other language it has its flaws and they have to be avoided. But that doesn't make it an unusable language. If we deep into more theoretically languages we could find that they sometimes prevent us of doing our work because it is just 'impure'. That doesn't make them worse just different.
+Each language is suited for a specific target audience and goal, even if they are general purpose languages. Keep this in mind and try to extract the best of them.
+
+Here we have an elm program. It adds 0.1 to 0.2 and writes it to the screen.
+
+```elm
+import Html exposing (text)
+
+main =
+  text (toString (0.1 + 0.2)) --outputs: 0.30000000000000004
+```
+
+(What!!?? 0.30000000000000004 !!?? Let's make fun of elm all together!!) Hold on. What happened? The outcome of the operation doesn't fit in the space available for a float number so some precision is lost and it produces this effect called overflow. This is common in many programming languages but not on all.
+Should we stop using elm because of this? No. Should we start an endless trip finding the perfect language? Maybe but not because of this. Should we use it for our banking application? Probably not, also elm is focused in building user interfaces.
+
+In any case: Go and learn what you are using. What must be prevented. And what other alternatives work better on those edge cases. Then pick the best tool for that work.
+
+And finally if your daily work involves checking NaN against itself, adding numbers to empty objects or checking the type of null probably javascript is not language. 
+
