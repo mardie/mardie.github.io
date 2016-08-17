@@ -4,7 +4,7 @@ layout: post
 title:  "Code Flow"
 date:  2016-08-15 00:00:00 +0100
 categories: hackathon javascript dataviz
-----------------------------------------
+---
 It was a very intense experience and coding session too. It was challenging and expentation was high. I'm happy with the outcome of the hackathon and proud to be amongst the finalists. 
 For a long time I had been thinking about code that draws code. Also I was thinking how tools like backwards debugging ([https://www.youtube.com/watch?v=xpI8hIgOyko](https://www.youtube.com/watch?v=xpI8hIgOyko)) could improve the javascript development experience. So this could focus me on the right track.
 
