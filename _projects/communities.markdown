@@ -1,5 +1,4 @@
 ---
-layout: project
 title:  "Communities"
 subtitle: "Modular customizable themed social networks"
 status: "inProgress"

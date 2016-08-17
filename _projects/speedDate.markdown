@@ -1,5 +1,4 @@
 ---
-layout: project
 title:  "SpeedDate. Very fast relations."
 subtitle: "Very fast (redis) relations"
 status: "done"

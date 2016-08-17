@@ -1,5 +1,4 @@
 ---
-layout: project
 title:  "Interactive story telling"
 subtitle: "Interactive transmedia story telling"
 status: "inProgress"

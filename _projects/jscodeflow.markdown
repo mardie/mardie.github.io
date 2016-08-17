@@ -1,5 +1,4 @@
 ---
-layout: project
 title:  "jsCodeflow"
 subtitle:  "Javascript execution flow visualization"
 image: "/images/codeflow.png"
