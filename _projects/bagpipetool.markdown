@@ -1,4 +1,6 @@
 ---
+layout: project
+
 title:  "Bagpipe tools"
 subtitle: "Handy toolbox for bagpipers"
 status: "planned"

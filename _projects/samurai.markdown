@@ -1,4 +1,6 @@
 ---
+layout: project
+
 title:  "Samurai game"
 subtitle: "Realtime p2p game"
 status: "done"
