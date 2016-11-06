@@ -61,6 +61,7 @@ You can see this pattern in the recursive fibonacci call tree:
 
 ![https://commons.wikimedia.org/wiki/File:Fibonacci_call_tree_5.gif](https://upload.wikimedia.org/wikipedia/commons/1/1a/Fibonacci_call_tree_5.gif "https://commons.wikimedia.org/wiki/File:Fibonacci_call_tree_5.gif")
 
+(https://commons.wikimedia.org/wiki/File:Fibonacci_call_tree_5.gif)
 
 Step 1: f(5)
 
